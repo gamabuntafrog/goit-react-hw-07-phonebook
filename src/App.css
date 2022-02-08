@@ -1,0 +1,61 @@
+h1,
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/04/21032431/redux-cover-imgage-1024x768.jpg);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+input {
+  border: 2px solid rgba(0, 0, 0, 0.493);
+  height: 40px;
+  border-radius: 5px;
+}
+.contacts {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts__item {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 5px;
+
+  background-color: rgba(0, 0, 0, 0.247);
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.contacts__item div {
+  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
